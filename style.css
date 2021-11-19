@@ -155,7 +155,7 @@ footer a:hover {
     display: inline-block;
   }
 
-  .mobile-nav-toggle:hover {
+  .mobile-nav-toggle:hover, .mobile-nav-toggle[aria-expanded="true"] {
     border: 1px solid lightgrey;
     border-radius: 5px;
   }
